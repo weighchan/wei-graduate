@@ -23,7 +23,7 @@ UPDATE:
 
 git status
 git add .
-git commit -m "更新功能：ssh.txt"
+git commit -m "更新 ssh.txt"
 git push
 
 OTHERS:
