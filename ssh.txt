@@ -7,7 +7,17 @@ git remote add origin https://github.com/weighchan/wei-graduate.git
 git push -u origin main
 
 DELETE:
-git push origin main --force
+git clone https://github.com/你的用户名/仓库名.git
+cd 仓库名
+------win -------
+del /F /Q *
+rd /S /Q .
+----------linux--------
+rm -rf *
+git add .
+git commit -m "删除仓库全部内容"
+git push origin main
+//git push origin main --force（这会把远程的历史全部覆盖！提交、记录、文件都会消失。）
 
 UPDATE:
 
