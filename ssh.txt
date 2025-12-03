@@ -8,3 +8,10 @@ git push -u origin main
 
 DELETE:
 git push origin main --force
+
+UPDATE:
+
+git status
+git add .
+git commit -m "更新功能：xxx"
+git push
