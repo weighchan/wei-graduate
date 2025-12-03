@@ -1,0 +1,10 @@
+ADD:
+git init
+git add .
+git commit -m "第一次提交"
+git branch -M main
+git remote add origin https://github.com/weighchan/wei-graduate.git
+git push -u origin main
+
+DELETE:
+git push origin main --force
