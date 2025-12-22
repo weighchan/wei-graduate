@@ -39,8 +39,7 @@ vnc远程控制（==必须在同一个局域网下，否则需要内网穿透==�
    Environment=DISPLAY=:0
    Environment=XAUTHORITY=/home/yourname/.Xauthority
    ExecStart=/usr/bin/x11vnc -display :0 -auth /home/yourname/.Xauthority -forever -loop -noxdamage -repeat -rfbauth /home/yourname/.vnc/passwd -rfbport 5900 -shared
-
-   Restart=always
+Restart=always
    RestartSec=5
    
    [Install]

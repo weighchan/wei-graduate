@@ -22,7 +22,7 @@ git push origin main
 UPDATE:
 git status
 git add .
-git commit -m "更新 ssh.txt"
+git commit -m "yourname"
 git push
 
 OTHERS:
