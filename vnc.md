@@ -45,13 +45,10 @@ vnc远程控制（==必须在同一个局域网下，否则需要内网穿透==�
    
    [Install]
    WantedBy=graphical.target
+   ---
+   $ sudo systemctl enable x11vnc.service
+   $ sudo systemctl start x11vnc.service
+   $ 查看一下服务器状态
+   $ sudo systemctl status x11vnc.service
    ```
-```txt
-$ sudo systemctl enable x11vnc.service
-$ sudo systemctl start x11vnc.service
-$ 查看一下服务器状态
-$ sudo systemctl status x11vnc.service
-```
-
-   
 
