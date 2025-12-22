@@ -44,14 +44,13 @@ Restart=always
    
    [Install]
    WantedBy=graphical.target
-```
-   
-   ```txt
-   $ sudo systemctl enable x11vnc.service
-   $ sudo systemctl start x11vnc.service
-   $ 查看一下服务器状态
-   $ sudo systemctl status x11vnc.service
    ```
-   
+```txt
+$ sudo systemctl enable x11vnc.service
+$ sudo systemctl start x11vnc.service
+$ 查看一下服务器状态
+$ sudo systemctl status x11vnc.service
+```
+
    
 
