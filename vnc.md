@@ -2,7 +2,7 @@ vnc远程控制（==必须在同一个局域网下，否则需要内网穿透==�
 
 1. 安装并启用SSH服务；
 
-   ```txt
+   ```shell
    $ sudo apt install openssh-server
    $ sudo systemctl status ssh.service 
    $ 确认是否开机自启动
@@ -11,7 +11,7 @@ vnc远程控制（==必须在同一个局域网下，否则需要内网穿透==�
 
 2. related works；
 
-   ```txt
+   ```shell
    $ sudo apt-get install x11vnc
    
    $ 安装lightdm ————>lightdm
@@ -24,7 +24,7 @@ vnc远程控制（==必须在同一个局域网下，否则需要内网穿透==�
 
 3. 配置VNC服务器
 
-   ```txt
+   ```shell
    $ 配置开机自启服务
    $ sudo vim /lib/systemd/system/x11vnc.service
    ---
