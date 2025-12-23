@@ -905,7 +905,7 @@ Gazebo是一款功能强大的三维物理仿真平台:
 
 你可以用ROS干什么：
 
-- [Gazabo+ROS+ros_control](http://wiki.ros.org/ros control)
+- [Gazabo+ROS+ros_control](http://wiki.ros.org/ros_control)
 - [gmapping](http://wiki.ros.org/gmapping/)
 - [hector](http://wiki.ros.org/hector_slam)
 
